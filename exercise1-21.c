@@ -59,7 +59,6 @@ char *entab(char s[], int len, int tabLength)
             {
                 out[j++] = '\\';
                 out[j++] = 't';
-                //out[j++] = '\t';
                 i += toTabStop - 1;
             }
             else
@@ -76,5 +75,4 @@ char *entab(char s[], int len, int tabLength)
 
     return out;
 }
-
 // COMPLETED
